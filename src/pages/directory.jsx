@@ -41,8 +41,8 @@ const DirectoryIndex = props => {
   return (
     <Layout>
       <SiteMetadata
-        title="Travel destinations"
-        description="Check the most popular travel destinations in Europe."
+        title="#BUYINDIE Codes Directory"
+        description="Use code BUYINDIE to get big discounts buying directly from small businesses and creators (instead of Amazon). Buy good. Do good. Feel good."
         image=""
       />
 
