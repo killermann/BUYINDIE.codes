@@ -1,0 +1,94 @@
+@tailwind base;
+
+body {
+  @apply .text-gray-900 .font-sans .antialiased;
+}
+
+body.ReactModal__Body--open > div[aria-hidden="true"] {
+  filter: blur(10px);
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.grayscale-1 {
+  filter: grayscale(1);
+}
+
+.blend-multiply {
+  mix-blend-mode: multiply;
+}
+
+.blend-burn {
+  mix-blend-mode: color-burn;
+}
+
+.theme-font {
+  font-family: rukou, sans-serif;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  text-transform: uppercase !important;
+}
+
+.fade-to-white {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 90%, rgba(255,255,255,1) 100%);
+}
+
+.spiral-bg {
+  background-image: url('../images/doodle-spiral.svg');
+  background-size: 500px;
+  background-position: 5px -126px;
+  background-repeat: no-repeat;
+}
+
+.shadow-top {
+  box-shadow: 0 -20px 40px -20px rgba(18, 0, 34, 0.2);
+}
+
+@media (min-width: 480px) {
+  .spiral-bg {
+    background-size: 600px;
+    background-position: 63px -166px;
+  }
+}
+
+@media (min-width: 768px) {
+  .spiral-bg {
+    background-size: 720px;
+    background-position: 133px -206px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .spiral-bg {
+    background-size: 1030px;
+    background-position: 15vw -276px;
+  }
+}
+
+@media (min-width: 1230px) {
+  .spiral-bg {
+    background-position: 20vw -276px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .spiral-bg {
+    background-position: 26vw -276px;
+  }
+}
+
+.cta-button {
+  @apply text-yellow-800;
+  background: rgb(247,236,89);
+  background: linear-gradient(119deg, rgba(247,236,89,1) 0%, rgba(249,202,127,1) 100%);
+  transition: all .15s ease-out;
+}
+
+.cta-button:hover, .cta-button:focus {
+  @apply text-yellow-700;
+  box-shadow: 0px 3px 1px 0px #966100;
+  transform: translateY(-3px);
+  background: linear-gradient(119deg,  rgba(249,202,127,1) 0%,  rgba(247,236,89,1)100%);
+}
