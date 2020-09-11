@@ -9,7 +9,7 @@ module.exports = {
       twitter: "https://www.twitter.com",
     },
     locale: "en",
-    title: "Travel destinations",
+    title: "#BUYINDIE",
   },
   plugins: [
     {
@@ -63,11 +63,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Travel Destinations`,
-        short_name: `Travel Destinations`,
+        name: `BUYINDIE`,
+        short_name: `BUYINDIE`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#4299e1`,
+        theme_color: `#F7EC5A`,
         display: `standalone`,
         icon: `src/images/icon.png`,
       },
