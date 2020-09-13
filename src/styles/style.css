@@ -12,12 +12,6 @@ body.ReactModal__Body--open > div[aria-hidden="true"] {
 
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Rukou';
-  src: url(${Rukou}) format('woff2');
-  font-weight: 500;
-}
-
 .grayscale-1 {
   filter: grayscale(1);
 }
