@@ -36,7 +36,7 @@ body.ReactModal__Body--open > div[aria-hidden="true"] {
 }
 
 .spiral-bg {
-  background-image: url('../images/doodle-spiral.jpg');
+  background-image: url('../images/doodle-spiral-700.jpg');
   background-size: 500px;
   background-position: 5px -116px;
   background-repeat: no-repeat;
@@ -55,6 +55,7 @@ body.ReactModal__Body--open > div[aria-hidden="true"] {
 
 @media (min-width: 768px) {
   .spiral-bg {
+    background-image: url('../images/doodle-spiral-900.jpg');
     background-size: 720px;
     background-position: 142px -190px;
   }
@@ -62,6 +63,7 @@ body.ReactModal__Body--open > div[aria-hidden="true"] {
 
 @media (min-width: 1024px) {
   .spiral-bg {
+    background-image: url('../images/doodle-spiral.jpg');
     background-size: 1030px;
     background-position: 15vw -246px;
   }
