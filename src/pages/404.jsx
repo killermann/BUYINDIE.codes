@@ -2,7 +2,6 @@ import React from "react"
 import { SiteMetadata } from "../components"
 import { Link } from "gatsby"
 
-import "typeface-roboto"
 import "../styles/style.css"
 
 export default () => {

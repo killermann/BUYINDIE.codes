@@ -25,7 +25,7 @@ body.ReactModal__Body--open > div[aria-hidden="true"] {
 }
 
 .theme-font {
-  font-family: rukou, sans-serif;
+  font-family: Rukou, sans-serif;
   font-weight: 500 !important;
   font-style: normal !important;
   text-transform: uppercase !important;
@@ -36,9 +36,9 @@ body.ReactModal__Body--open > div[aria-hidden="true"] {
 }
 
 .spiral-bg {
-  background-image: url('../images/doodle-spiral.svg');
+  background-image: url('../images/doodle-spiral.jpg');
   background-size: 500px;
-  background-position: 5px -126px;
+  background-position: 5px -116px;
   background-repeat: no-repeat;
 }
 
@@ -49,33 +49,33 @@ body.ReactModal__Body--open > div[aria-hidden="true"] {
 @media (min-width: 480px) {
   .spiral-bg {
     background-size: 600px;
-    background-position: 63px -166px;
+    background-position: 48px -150px;
   }
 }
 
 @media (min-width: 768px) {
   .spiral-bg {
     background-size: 720px;
-    background-position: 133px -206px;
+    background-position: 142px -190px;
   }
 }
 
 @media (min-width: 1024px) {
   .spiral-bg {
     background-size: 1030px;
-    background-position: 15vw -276px;
+    background-position: 15vw -246px;
   }
 }
 
 @media (min-width: 1230px) {
   .spiral-bg {
-    background-position: 20vw -276px;
+    background-position: 20vw -252px;
   }
 }
 
 @media (min-width: 1440px) {
   .spiral-bg {
-    background-position: 26vw -276px;
+    background-position: 26vw -256px;
   }
 }
 

@@ -1,0 +1,25 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3947236, 2020-09-13T14:20:26-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: RukouMedium-Medium by DizajnDesign
+ * URL: https://www.myfonts.com/fonts/dizajndesign/rukou-regular/medium/
+ * Copyright: Copyright (c) 2010 by Jan Filipek. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+  
+@font-face {
+  font-family: 'Rukou';
+  font-display: swap;
+  src: url('rukou.woff2') format('woff2'), url('rukou.woff') format('woff');
+}
+

@@ -5,7 +5,7 @@ module.exports = {
       center: true,
     },
     fontFamily: {
-      sans: ["Roboto", "system-ui", "sans-serif"],
+      sans: ["system-ui", "sans-serif"],
     },
     opacity: {
       '15': '.15',

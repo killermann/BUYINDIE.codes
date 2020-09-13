@@ -82,8 +82,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        typekit: {
-          id: 'aic7dyv'
+        custom: {
+          families: ["Rukou"],
+          urls: ["/fonts/fonts.css"],
         }
       }
     },
