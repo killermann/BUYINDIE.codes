@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { graphql, useStaticQuery } from "gatsby"
 import PropTypes from "prop-types"
-import FontUrl from "../fonts/rukou.woff2"
+import FontUrl from "../../static/fonts/rukou.woff2"
 
 export const SiteMetadata = ({ description, image, title }) => {
   const {
