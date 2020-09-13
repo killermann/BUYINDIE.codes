@@ -12,6 +12,23 @@ body.ReactModal__Body--open > div[aria-hidden="true"] {
 
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Rukou';
+  font-display: swap;
+  src: 
+    url('../fonts/rukou.woff2') format('woff2'), 
+    url('../fonts/rukou.woff') format('woff')
+  ;
+}
+
+.theme-font {
+  font-family: Rukou, sans-serif;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  text-transform: uppercase !important;
+}
+
+
 .grayscale-1 {
   filter: grayscale(1);
 }
@@ -22,13 +39,6 @@ body.ReactModal__Body--open > div[aria-hidden="true"] {
 
 .blend-burn {
   mix-blend-mode: color-burn;
-}
-
-.theme-font {
-  font-family: Rukou, sans-serif;
-  font-weight: 500 !important;
-  font-style: normal !important;
-  text-transform: uppercase !important;
 }
 
 .fade-to-white {
