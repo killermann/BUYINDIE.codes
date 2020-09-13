@@ -84,7 +84,7 @@ module.exports = {
       options: {
         custom: {
           families: ["Rukou"],
-          urls: ["/fonts/fonts.css"],
+          urls: ["src/fonts/fonts.css"],
         },
         usePreload: true,
         useMinify: true,

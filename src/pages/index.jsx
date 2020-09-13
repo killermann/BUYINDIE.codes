@@ -7,7 +7,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <SiteMetadata        
-        title="#BUYINDIE"
+        title="Use code BUYINDIE"
         description="Use code BUYINDIE to get big discounts buying directly from small businesses and creators (instead of Amazon). Buy good. Do good. Feel good."
         image=""
       />
