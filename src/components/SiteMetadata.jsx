@@ -2,6 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { graphql, useStaticQuery } from "gatsby"
 import PropTypes from "prop-types"
+import FontUrl from "../../static/fonts/rukou.woff2"
 
 export const SiteMetadata = ({ description, image, title }) => {
   const {
@@ -37,6 +38,12 @@ export const SiteMetadata = ({ description, image, title }) => {
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:image" content={image} />
       <meta property="twitter:description" content={description} />
+      <link rel="preload"
+            as="font"
+            href={FontUrl}
+            type="font/woff2"
+            crossOrigin="anonymous" />
+      
     </Helmet>
   )
 }

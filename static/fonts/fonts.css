@@ -20,6 +20,8 @@
 @font-face {
   font-family: 'Rukou';
   font-display: swap;
-  src: url('rukou.woff2') format('woff2'), url('rukou.woff') format('woff');
+  src: 
+    url('rukou.woff2') format('woff2'), 
+    url('rukou.woff') format('woff')
+  ;
 }
-

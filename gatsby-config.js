@@ -85,9 +85,10 @@ module.exports = {
         custom: {
           families: ["Rukou"],
           urls: ["/fonts/fonts.css"],
-        }
+        },
+        usePreload: true,
+        useMinify: true,
       }
     },
-    `gatsby-plugin-preload-fonts`,
   ],
 }
