@@ -43,7 +43,6 @@ export const SiteMetadata = ({ description, image, title }) => {
             href={FontUrl}
             type="font/woff2"
             crossOrigin="anonymous" />
-      
     </Helmet>
   )
 }
